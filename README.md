@@ -1,5 +1,15 @@
 # Notes about My development
 
+## Folder Structure
+I have organized the project following a feature-based structure. This pattern groups related files together, making the codebase more modular and easier to maintain. Here is an overview of the structure:
+
+- `src/components`: Contains reusable UI components.
+- `src/pages`: Contains page-level components.
+- `src/styles`: Contains global and component-specific styles.
+- `src/component/[componentName]/styles/[componentName].module.css`: Contains component-specific CSS modules for styling individual components. This ensures that styles are scoped locally to the component, preventing conflicts with other styles.
+- `src/assets`: Contains static assets like images and fonts.
+
+
 ## Responsive Design
 I have followed the figma design with real working example from the video ypu have recorded. I ensured the project follows a mobile-first approach, making it responsive across various devices. This was achieved by using CSS media queries to adjust the layout and styles based on the screen size. For example, in the `src/components/Navbar/styles/Navbar.module.css` file, I added media queries to handle different screen widths.
 
