@@ -1,6 +1,6 @@
 .animated_content_container {
-  background-color: #FFF;
   padding-top: 131px;
+  background-color: #fff;
 }
 
 .animated_content {
@@ -10,24 +10,29 @@
   align-items: end;
   justify-content: space-between;
   justify-items: end;
+
   max-width: 1200px;
   min-height: 400px;
   margin-inline: auto;
   padding-inline: 24px;
-  background-color: #FFF;
+
+  background-color: #fff;
 }
 
 .content {
   display: grid;
   align-self: start;
   justify-items: end;
+
   max-width: 556px;
   margin-top: 20%;
+
   text-align: right;
 }
 
 .title {
   margin-bottom: 16px;
+
   font-size: 16px;
   font-weight: 800;
   line-height: 19.09px;
@@ -37,6 +42,7 @@
 
 .header {
   margin-bottom: 20px;
+
   font-size: 32px;
   font-weight: 700;
   line-height: 40px;
@@ -55,11 +61,13 @@
 .button {
   margin-top: 32px;
   padding: 15px 20px;
+
   font-size: 20px;
   font-weight: 400;
   line-height: 23.87px;
+  color: #0b122a;
   text-align: center;
-  color: #0B122A;
+
   background: #00000029;
   background-color: transparent;
   border: 0.5px solid #00000029;
@@ -82,8 +90,8 @@
 
   .animated_content {
     grid-template-columns: auto;
-    justify-content: center;
     gap: 40px;
+    justify-content: center;
   }
 
   .content {
@@ -109,6 +117,7 @@
 
   .button {
     margin-top: 20px;
+
     font-size: 14.81px;
     font-weight: 400;
     line-height: 17.68px;

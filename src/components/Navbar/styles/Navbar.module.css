@@ -1,55 +1,55 @@
 .navbar_container {
-  display: flex;
-  overflow: auto;
   scroll-snap-type: x mandatory;
+  overflow: auto;
+  display: flex;
 }
 
 .navbar_container > li {
+  scroll-snap-align: center;
   flex-grow: 1;
   background-color: white;
-  scroll-snap-align: center;
 }
 
 a {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
   flex-wrap: wrap;
   gap: 5px 16px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 
   padding: 33px 5px;
 
   font-size: 20px;
   font-weight: 500;
   line-height: 28px;
-  color: #0B172A;
+  color: #0b172a;
   text-decoration: none;
+
   border: 1px solid #f5f5f7;
-  border-top-color: #FFF;
-  border-bottom-color: #FFF;
-  border-left-color: #FFF;
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+  border-left-color: #fff;
+
   transition: border 0.2s linear;
 }
 
 a:hover {
-  border: 1px solid #0381FF;
+  border: 1px solid #0381ff;
 }
 
 .active_nav a {
   background: #0381ff08;
 }
 
-
-
 .active_nav a:hover {
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
 }
 
-
-
 .navbar_container :global(svg *) {
-  transition: fill 1s ease, stroke-dashoffset 1s ease;
+  transition:
+    fill 1s ease,
+    stroke-dashoffset 1s ease;
 }
 
 .navbar_container :global(.animated-circle) {
@@ -73,7 +73,7 @@ a:hover {
 @media screen and (width <= 768px) {
   a {
     flex-wrap: nowrap;
-    white-space: nowrap;
     padding: 33px;
+    white-space: nowrap;
   }
 }
