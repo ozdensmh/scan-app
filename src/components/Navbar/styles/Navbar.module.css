@@ -26,23 +26,27 @@ a {
   color: #0B172A;
   text-decoration: none;
   border: 1px solid #f5f5f7;
-  border-top-color: #FFFFFF;
-  border-bottom-color: #FFFFFF;
-  border-left-color: #FFFFFF;
+  border-top-color: #FFF;
+  border-bottom-color: #FFF;
+  border-left-color: #FFF;
   transition: border 0.2s linear;
+}
+
+a:hover {
+  border: 1px solid #0381FF;
 }
 
 .active_nav a {
   background: #0381ff08;
 }
 
+
+
 .active_nav a:hover {
-  border: 1px solid #FFFFFF;
+  border: 1px solid #FFF;
 }
 
-a:hover {
-  border: 1px solid #0381FF;
-}
+
 
 .navbar_container :global(svg *) {
   transition: fill 1s ease, stroke-dashoffset 1s ease;

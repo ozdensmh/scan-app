@@ -17,13 +17,16 @@ body {
 @media screen and (width <= 768px) {
   body {
    
-    background-color: #ffffff;
+    
+    background-color: #FFF;
   }
+  
   .app_container {
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
     align-items: flex-start;
+    justify-content:flex-start;
+    
   }
 }
 
